@@ -1,0 +1,9 @@
+# Actuator
+management:
+  server:
+    port: 9001
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics, beans, auditevents, conditions, loggers
+
